@@ -10,3 +10,15 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+function setVar(){    
+    let myStore = document.getElementById('store'); 
+    let myProduct = document.getElementById('product');
+    let myQuantity = document.getElementById('quantity'); 
+    let messageArea = document.querySelector('p'); 
+
+    let message=`I shopped at ${myStore.value} for ${myQuantity.value} ${myProduct.value}`; 
+    console.log(message); 
+    messageArea.innerText=message 
+}
+
+

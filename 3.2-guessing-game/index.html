@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>Guess The Number!</h1>
+
+    <p>Can you guess the number between 1 - 10 in two guesses or less?</p>
+
+    <div class="form">
+        <label for="numberGuess">Enter your guess (between 1 and 10): </label>
+        <input type="number" id="numberGuess" name="numberGuess" min="1" max="10">
+        <input type="submit" value="Submit Your Guess" id="submitGuess">
+    </div>
+
+    <div class="resultParams">
+        <p id ="guess"></p>
+        <p id ="lastGuess"></p>
+        <p id ="lowOrHigh"></p>
+    </div>
+
+    <script src="3.2-guessingGame.instructional.js"></script>
+</body>
+</html>
